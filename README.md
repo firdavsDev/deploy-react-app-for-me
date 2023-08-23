@@ -34,7 +34,9 @@
       sudo service nginx start
 
 ## After git pull:
-      sudo service nginx restart
+     git pull
+     npm run build
+     sudo service nginx restart
 
 ## Check ngnix status:
         sudo service nginx status
