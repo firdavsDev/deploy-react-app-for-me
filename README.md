@@ -25,7 +25,7 @@
   }
   ```
 ## Move file to sites-enables:
-  sudo ln -s /etc/nginx/sites-available/{file_name} /etc/nginx/sites-enabled
+      sudo ln -s /etc/nginx/sites-available/{file_name} /etc/nginx/sites-enabled
 
 ## Check ngnix file sentax:
       sudo nginx -t
