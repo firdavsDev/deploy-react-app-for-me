@@ -16,12 +16,13 @@
   
   ```
   server {
-     listen 3000;
-     root /home/hududsayt_user/karantin-region-front/build;
-     server_name 192.168.145.23;
+     listen 80;
+     root /home/{path}/build;
+     server_name IP, domain;
      index index.html index.htm;
      location / {
-     }
+        try_files $uri $uri/ /index.html;
+      } 
   }
   ```
 ## Move file to sites-enables:
