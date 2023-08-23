@@ -36,5 +36,8 @@
 ## After git pull:
       sudo service nginx restart
 
+## Check ngnix status:
+        sudo service nginx status
+
 
   - And you’re done! If you go to your browser and type in the IP address of your server or your domain, you should see your React app live!
