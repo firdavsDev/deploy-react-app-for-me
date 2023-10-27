@@ -44,3 +44,16 @@
 
 
   - And you’re done! If you go to your browser and type in the IP address of your server or your domain, you should see your React app live!
+
+## Docker development
+If pulled for the first time or the package.json changed run
+
+    docker-compose build
+    docker-compose up -d
+    docker-compose logs -f web
+
+If you need to install any npm package.
+
+    docker-compose exec web npm install pacakge-name
+
+More: https://medium.com/@sudiptob2/properly-setting-up-react-development-environment-using-docker-a2de46464d0b
